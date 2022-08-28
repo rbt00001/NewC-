@@ -6,7 +6,10 @@ using namespace std;
         int a = 1;
         int b = 2;
 
-        int a = b; 
+        int temp = a;        
+
+        a = b; 
+        b = temp;
 
         cout << a;
 
