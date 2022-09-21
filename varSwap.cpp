@@ -1,17 +1,26 @@
 #include <iostream>
 
-using namespace std;
 
-    int main() {
-        int a = 1;
-        int b = 2;
+int main () {
+    int file_size = 0; 
+    int counter = 0;
+    double sales = 9.99;
+    std :: cout << file_size;
+    return 0;
+}
 
-        int temp = a;        
+// using namespace std;
 
-        a = b; 
-        b = temp;
+//     int main() {
+//         int a = 1;
+//         int b = 2;
 
-        cout << a;
+//         int temp = a;        
 
-        return 0;
-    }
+//         a = b; 
+//         b = temp;
+
+//         cout << a;
+
+//         return 0;
+//     }
