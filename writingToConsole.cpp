@@ -2,6 +2,6 @@
 
 int main () {
     int x = 10;
-    std::cout << "x = " << x; 
+    std::cout << "x = "  << x; 
     return 0; 
 }
